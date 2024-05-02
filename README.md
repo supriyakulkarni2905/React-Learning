@@ -35,6 +35,20 @@ npm –v
 * 3.	npm start
 
 
+## Module Structure
+* node_module
+* public
+* src
+* package.json
+* package-lock.json
+* git.ignore
+* README.md
 
-
+** node_modules : this directory contains all dependencies (libraries,packaes)used by project and managed by package mangaer like npm
+**  public : this contains static files as html(index.html) and for image favicon.ico may have 
+** src : it contains 5 files
+* App.css : this directory contains CSS files used to style your project
+* App.js : this is main content of your prject where you form your project with state management
+** package.json : contains dependencies
+** package-lock.json : ensures consistant installation 
 
